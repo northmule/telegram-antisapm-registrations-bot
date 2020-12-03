@@ -1,0 +1,1034 @@
+2020-12-02T15:55:25+03:00 INFO (6): Telegram данные: {"update_id":606011946,
+"message":{"message_id":10,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606913723,"text":"\u041f\u0430\u0440\u0430\u043c \u043f\u0430\u043c \u043f\u0430\u043c"}}
+2020-12-02T15:56:19+03:00 INFO (6): Telegram данные: {"update_id":606011947,
+"message":{"message_id":11,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606913778,"new_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_members":[{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}]}}
+2020-12-02T15:56:38+03:00 INFO (6): Telegram данные: {"update_id":606011948,
+"message":{"message_id":12,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606913797,"left_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"left_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}}}
+2020-12-02T16:03:50+03:00 INFO (6): Telegram данные: {"update_id":606011949,
+"message":{"message_id":13,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606914230,"text":"/@akismetBot start","entities":[{"offset":1,"length":11,"type":"mention"}]}}
+2020-12-02T16:06:27+03:00 INFO (6): Telegram данные: {"update_id":606011950,
+"message":{"message_id":14,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606914387,"text":"Test"}}
+2020-12-02T16:09:17+03:00 INFO (6): Telegram данные: {"update_id":606011951,
+"message":{"message_id":15,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606914557,"text":"Test2"}}
+2020-12-02T16:09:42+03:00 INFO (6): Telegram данные: {"update_id":606011952,
+"message":{"message_id":16,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606914582,"text":"sdfdsf"}}
+2020-12-02T16:10:44+03:00 INFO (6): Telegram данные: {"update_id":606011953,
+"message":{"message_id":17,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606914643,"text":"dsfdf"}}
+2020-12-02T16:10:58+03:00 INFO (6): Telegram данные: {"update_id":606011954,
+"message":{"message_id":18,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606914658,"text":"sdf"}}
+2020-12-02T16:26:48+03:00 INFO (6): Telegram данные: {"update_id":606011955,
+"message":{"message_id":19,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606915607,"text":"sdfsdf"}}
+2020-12-02T17:34:51+03:00 INFO (6): Telegram данные: {"update_id":606011956,
+"message":{"message_id":28,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606919691,"reply_to_message":{"message_id":27,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606919684,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430!"},"text":"8"}}
+2020-12-02T17:36:11+03:00 INFO (6): Telegram данные: {"update_id":606011957,
+"message":{"message_id":30,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606919771,"reply_to_message":{"message_id":29,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606919764,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430!"},"text":"A"}}
+2020-12-02T17:38:57+03:00 INFO (6): Telegram данные: {"update_id":606011958,
+"message":{"message_id":32,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606919937,"reply_to_message":{"message_id":31,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606919924,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?"},"text":"\u042f \u0431\u043e\u0442!"}}
+2020-12-02T17:39:07+03:00 INFO (6): Telegram данные: {"update_id":606011959,
+"message":{"message_id":34,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606919947,"reply_to_message":{"message_id":33,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606919944,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?"},"text":"\u0436\u044d\\\u0436"}}
+2020-12-02T17:49:39+03:00 INFO (6): Telegram данные: {"update_id":606011960,
+"callback_query":{"id":"2149792331976108263","from":{"id":500537532,"is_bot":false,"first_name":"\u0415\u0432\u0433\u0435\u043d\u0438\u0439","username":"northmule","language_code":"ru"},"message":{"message_id":35,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606920496,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"Inline Query (current chat)","switch_inline_query_current_chat":"inline query..."},{"text":"Inline Query (other chat)","switch_inline_query":"inline query..."}],[{"text":"Callback","callback_data":"identifier"},{"text":"Open URL","url":"https://github.com/php-telegram-bot/example-bot"}]]}},"chat_instance":"-4985393030296315132","data":"identifier"}}
+2020-12-02T17:50:57+03:00 INFO (6): Telegram данные: {"update_id":606011961,
+"callback_query":{"id":"2149792333239620682","from":{"id":500537532,"is_bot":false,"first_name":"\u0415\u0432\u0433\u0435\u043d\u0438\u0439","username":"northmule","language_code":"ru"},"message":{"message_id":35,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606920496,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"Inline Query (current chat)","switch_inline_query_current_chat":"inline query..."},{"text":"Inline Query (other chat)","switch_inline_query":"inline query..."}],[{"text":"Callback","callback_data":"identifier"},{"text":"Open URL","url":"https://github.com/php-telegram-bot/example-bot"}]]}},"chat_instance":"-4985393030296315132","data":"identifier"}}
+2020-12-02T17:53:44+03:00 INFO (6): Telegram данные: {"update_id":606011962,
+"callback_query":{"id":"2149792333164181702","from":{"id":500537532,"is_bot":false,"first_name":"\u0415\u0432\u0433\u0435\u043d\u0438\u0439","username":"northmule","language_code":"ru"},"message":{"message_id":36,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606920816,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_human"}}
+2020-12-02T18:03:25+03:00 INFO (6): Telegram данные: {"update_id":606011963,
+"message":{"message_id":37,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606921405,"new_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_members":[{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}]}}
+2020-12-02T18:03:32+03:00 INFO (6): Telegram данные: {"update_id":606011964,
+"message":{"message_id":38,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606921412,"text":"\u041b\u043b\u0432"}}
+2020-12-02T18:06:58+03:00 INFO (6): Telegram данные: {"update_id":606011965,
+"callback_query":{"id":"2149792331701831419","from":{"id":500537532,"is_bot":false,"first_name":"\u0415\u0432\u0433\u0435\u043d\u0438\u0439","username":"northmule","language_code":"ru"},"message":{"message_id":36,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606920816,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_bot"}}
+2020-12-02T18:07:03+03:00 INFO (6): Telegram данные: {"update_id":606011966,
+"callback_query":{"id":"2149792331123829252","from":{"id":500537532,"is_bot":false,"first_name":"\u0415\u0432\u0433\u0435\u043d\u0438\u0439","username":"northmule","language_code":"ru"},"message":{"message_id":36,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606920816,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_human"}}
+2020-12-02T18:07:22+03:00 INFO (6): Telegram данные: {"update_id":606011967,
+"message":{"message_id":39,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606921642,"left_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"left_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}}}
+2020-12-03T10:44:09+03:00 INFO (6): Telegram данные: {"update_id":606011968,
+"message":{"message_id":42,"from":{"id":1087968824,"is_bot":true,"first_name":"Group","username":"GroupAnonymousBot"},"sender_chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606981448,"text":"\u041f\u0430\u0440\u0430\u043c \u043f\u0430\u043c \u043f\u0430\u043c"}}
+2020-12-03T11:43:42+03:00 INFO (6): Telegram данные: {"update_id":606011969,
+"message":{"message_id":43,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606985022,"left_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"left_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}}}
+2020-12-03T11:43:51+03:00 INFO (6): Telegram данные: {"update_id":606011970,
+"message":{"message_id":44,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606985031,"new_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_members":[{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}]}}
+2020-12-03T11:44:15+03:00 INFO (6): Telegram данные: {"update_id":606011971,
+"message":{"message_id":45,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606985055,"left_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"left_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}}}
+2020-12-03T08:45:53+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011947,
+  "message": {
+    "message_id": 11,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606913778,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}
+2020-12-03T12:07:39+03:00 INFO (6): Telegram данные: {"update_id":606011972,
+"message":{"message_id":47,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606986459,"new_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_members":[{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}]}}
+2020-12-03T12:18:26+03:00 INFO (6): Telegram данные: {"update_id":606011973,
+"message":{"message_id":49,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987105,"left_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"left_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}}}
+2020-12-03T12:18:32+03:00 INFO (6): Telegram данные: {"update_id":606011974,
+"message":{"message_id":50,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987112,"new_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_members":[{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}]}}
+2020-12-03T12:19:08+03:00 INFO (6): Telegram данные: {"update_id":606011975,
+"message":{"message_id":52,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987148,"left_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"left_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}}}
+2020-12-03T12:20:48+03:00 INFO (6): Telegram данные: {"update_id":606011976,
+"message":{"message_id":53,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987248,"new_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"},"new_chat_members":[{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430"}]}}
+2020-12-03T12:20:51+03:00 INFO (6): Telegram данные: {"update_id":606011977,
+"callback_query":{"id":"3520521050161900023","from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"message":{"message_id":54,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987248,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_bot"}}
+2020-12-03T12:20:55+03:00 INFO (6): Telegram данные: {"update_id":606011978,
+"callback_query":{"id":"3520521053293477427","from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"message":{"message_id":54,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987248,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_human"}}
+2020-12-03T12:21:24+03:00 INFO (6): Telegram данные: {"update_id":606011979,
+"message":{"message_id":57,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987284,"left_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"left_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"}}}
+2020-12-03T12:27:07+03:00 INFO (6): Telegram данные: {"update_id":606011980,
+"message":{"message_id":58,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987627,"new_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"new_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"new_chat_members":[{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"}]}}
+2020-12-03T12:27:13+03:00 INFO (6): Telegram данные: {"update_id":606011981,
+"callback_query":{"id":"3520521053626348743","from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"message":{"message_id":59,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987628,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_human"}}
+2020-12-03T12:27:33+03:00 INFO (6): Telegram данные: {"update_id":606011982,
+"message":{"message_id":61,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987653,"left_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"left_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"}}}
+2020-12-03T12:31:15+03:00 INFO (6): Telegram данные: {"update_id":606011983,
+"message":{"message_id":62,"from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987875,"new_chat_participant":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"new_chat_member":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"new_chat_members":[{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"}]}}
+2020-12-03T12:31:25+03:00 INFO (6): Telegram данные: {"update_id":606011984,
+"callback_query":{"id":"3520521053089999911","from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"message":{"message_id":63,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987876,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_human"}}
+2020-12-03T12:31:31+03:00 INFO (6): Telegram данные: {"update_id":606011985,
+"callback_query":{"id":"3520521050111494302","from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"message":{"message_id":63,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987876,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_human"}}
+2020-12-03T12:31:34+03:00 INFO (6): Telegram данные: {"update_id":606011986,
+"callback_query":{"id":"3520521051230065351","from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"message":{"message_id":63,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987876,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_bot"}}
+2020-12-03T12:32:02+03:00 INFO (6): Telegram данные: {"update_id":606011987,
+"callback_query":{"id":"3520521052178582698","from":{"id":819685182,"is_bot":false,"first_name":"\u0416\u0430\u043d\u043d\u0430","language_code":"ru"},"message":{"message_id":63,"from":{"id":828472701,"is_bot":true,"first_name":"\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442","username":"akismetBot"},"chat":{"id":-1001421051123,"title":"Is Programmer","username":"isProgrammer1","type":"supergroup"},"date":1606987876,"text":"\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?","reply_markup":{"inline_keyboard":[[{"text":"\u042f \u0431\u043e\u0442!","callback_data":"callback_answer_bot"},{"text":"\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!","callback_data":"callback_answer_human"}]]}},"chat_instance":"-4985393030296315132","data":"callback_answer_bot"}}
+2020-12-03T09:32:41+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011987,
+    "callback_query": {
+        "id": "3520521052178582698",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_bot"
+    }
+}
+2020-12-03T09:33:13+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T09:33:38+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T11:36:17+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T11:36:41+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T11:38:11+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T11:42:09+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T11:49:45+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T11:51:08+00:00 INFO (6): Telegram данные:
+2020-12-03T11:58:26+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T12:46:59+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T12:53:29+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T12:57:21+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T13:23:02+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T13:25:29+00:00 INFO (6): Telegram данные: {
+    "update_id": 606011985,
+    "callback_query": {
+        "id": "3520521050111494302",
+        "from": {
+            "id": 819685182,
+            "is_bot": false,
+            "first_name": "\u0416\u0430\u043d\u043d\u0430",
+            "language_code": "ru"
+        },
+        "message": {
+            "message_id": 63,
+            "from": {
+                "id": 828472701,
+                "is_bot": true,
+                "first_name": "\u0410\u043d\u0442\u0438\u0441\u043f\u0430\u043c\u0411\u043e\u0442",
+                "username": "akismetBot"
+            },
+            "chat": {
+                "id": -1001421051123,
+                "title": "Is Programmer",
+                "username": "isProgrammer1",
+                "type": "supergroup"
+            },
+            "date": 1606987876,
+            "text": "\u041f\u0440\u0438\u0432\u0435\u0442! \u0416\u0430\u043d\u043d\u0430! \u0421\u043a\u0430\u0436\u0438, \u043a\u0442\u043e \u0442\u044b?",
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "\u042f \u0431\u043e\u0442!",
+                            "callback_data": "callback_answer_bot"
+                        },
+                        {
+                            "text": "\u042f \u0447\u0435\u043b\u043e\u0432\u0435\u043a!",
+                            "callback_data": "callback_answer_human"
+                        }
+                    ]
+                ]
+            }
+        },
+        "chat_instance": "-4985393030296315132",
+        "data": "callback_answer_human"
+    }
+}
+2020-12-03T13:59:28+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011963,
+  "message": {
+    "message_id": 37,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606921405,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}
+2020-12-03T14:01:23+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011963,
+  "message": {
+    "message_id": 37,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606921405,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}
+2020-12-03T14:02:04+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011963,
+  "message": {
+    "message_id": 37,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606921405,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}
+2020-12-03T14:02:11+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011963,
+  "message": {
+    "message_id": 37,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606921405,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}
+2020-12-03T14:07:54+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011963,
+  "message": {
+    "message_id": 37,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606921405,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}
+2020-12-03T14:08:15+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011963,
+  "message": {
+    "message_id": 37,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606921405,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}
+2020-12-03T14:14:02+00:00 INFO (6): Telegram данные:
+2020-12-03T14:14:08+00:00 INFO (6): Telegram данные:
+2020-12-03T14:28:37+00:00 INFO (6): Telegram данные:
+2020-12-03T14:28:40+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011963,
+  "message": {
+    "message_id": 37,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606921405,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}
+2020-12-03T14:56:07+00:00 INFO (6): Telegram данные:
+2020-12-03T14:56:11+00:00 INFO (6): Telegram данные: {
+  "update_id": 606011963,
+  "message": {
+    "message_id": 37,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606921405,
+    "new_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "new_chat_members": [
+      {
+        "id": 819685182,
+        "is_bot": false,
+        "first_name": "Жанна"
+      }
+    ]
+  }
+}

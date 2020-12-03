@@ -1,0 +1,28 @@
+{
+  "update_id": 606011971,
+  "message": {
+    "message_id": 45,
+    "from": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "chat": {
+      "id": -1001421051123,
+      "title": "Is Programmer",
+      "username": "isProgrammer1",
+      "type": "supergroup"
+    },
+    "date": 1606985055,
+    "left_chat_participant": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    },
+    "left_chat_member": {
+      "id": 819685182,
+      "is_bot": false,
+      "first_name": "Жанна"
+    }
+  }
+}
