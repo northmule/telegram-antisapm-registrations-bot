@@ -112,10 +112,12 @@ class Events
         $keybord = $this->serviceManager->get(KeybordQuestion::class);
         $keybord->setCurentUserId((string)$message->getFrom()->getId());
         /** @var  TelegramRestrict $restrictionService */
+        $restrictionService = $this->serviceManager->get(TelegramRestrict::class);
         $question = $keybord->getQuestion();
+        // Ограничить нового пользователя в правах, до ответа на вопрос
+        $restrictionService->setRestrict($message->getChat()->getId(),$message->getFrom()->getId());
         
         if ($message->botAddedInChat()) { // только бот
-            $restrictionService->setRestrict($message->getChat()->getId(),$message->getFrom()->getId());
             return  Request::sendMessage([
                 'chat_id' => $message->getChat()->getId(),
                 'text'    => "Привет бот!",
@@ -128,12 +130,7 @@ class Events
         foreach ($members as $member) {
             $member_names[] = $member->tryMention();
         }
-        
-        /** @var  TelegramRestrict $restrictionService */
-        $restrictionService = $this->serviceManager->get(TelegramRestrict::class);
-        // Ограничить нового пользователя в правах, до ответа на вопрос
-        
-        
+ 
         return  Request::sendMessage(
             array_merge([
                 'chat_id' => $message->getChat()->getId(),
