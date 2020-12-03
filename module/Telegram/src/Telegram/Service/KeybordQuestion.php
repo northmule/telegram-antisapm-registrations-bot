@@ -17,6 +17,8 @@ use Telegram\Map\QuestionKeyboard as QuestionKeyboardMap;
 class KeybordQuestion
 {
     
+    protected $curentUserId = '';
+    
     /**
      * Вернёт клавиатуру с вопросом для пользователя
      * @return array [reply_markup => InlineKeyboard]
@@ -25,11 +27,25 @@ class KeybordQuestion
     {
         
         $keyboard = new InlineKeyboard([
-            ['text' => 'Я бот!', 'callback_data' => QuestionKeyboardMap::CALLBACK_ANSWER_BOT],
-            ['text' => 'Я человек!', 'callback_data' => QuestionKeyboardMap::CALLBACK_ANSWER_HUMAN],
+            ['text' => 'Я бот!', 'callback_data' => QuestionKeyboardMap::CALLBACK_ANSWER_BOT.$this->curentUserId],
+            ['text' => 'Я человек!', 'callback_data' => QuestionKeyboardMap::CALLBACK_ANSWER_HUMAN.$this->curentUserId],
         ]);
         
         return ['reply_markup' => $keyboard];
         
     }
+    
+    /**
+     * Set curentUserId
+     *
+     * @param string $curentUserId
+     *
+     * @return KeybordQuestion
+     */
+    public function setCurentUserId(string $curentUserId): KeybordQuestion
+    {
+        $this->curentUserId = $curentUserId;
+        return $this;
+    }
+    
 }

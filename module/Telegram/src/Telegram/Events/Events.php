@@ -7,9 +7,11 @@ namespace Telegram\Events;
 use Doctrine\ORM\EntityManager;
 use Laminas\EventManager\Event;
 use Laminas\ServiceManager\ServiceManager;
+use Longman\TelegramBot\Entities\CallbackQuery;
 use Longman\TelegramBot\Entities\Message;
 use Longman\TelegramBot\Entities\User;
 use Longman\TelegramBot\Request;
+use Telegram\Map\QuestionKeyboard;
 use Telegram\Service\KeybordQuestion;
 use Telegram\Service\TelegramRestrict;
 
@@ -49,8 +51,7 @@ class Events
     {
         $message = $event->getParam('message',null);
         $user = $event->getParam('user',null);
-        $approved = $event->getParam('approved',null);
-        $answer = $event->getParam('answer', null);
+        $callback = $event->getParam('callback', null);
         
         if (!($message instanceof Message)) {
             return;
@@ -59,9 +60,14 @@ class Events
         if (!($user instanceof User)) {
             return;
         }
-        
-        if ($approved === null) {
+        if (!($callback instanceof CallbackQuery)) {
             return;
+        }
+        
+        $approved = false;
+        
+        if ($callback->getData() === QuestionKeyboard::CALLBACK_ANSWER_HUMAN.$user->getId()) {
+            $approved = true;
         }
         
         /** @var  TelegramRestrict $restrictionService */
@@ -70,12 +76,22 @@ class Events
         if ($approved) {
             // Снимаем ограничения
             $restrictionService->unsetRestrict($message->getChat()->getId(),$user->getId());
+            
+            // Удаление сообщения
+            Request::deleteMessage(
+                [
+                    'chat_id' => $message->getChat()->getId(),
+                    'message_id' => $message->getMessageId(),
+                ]
+            );
+            
             // Отправляем сообщение
             return  Request::sendMessage([
                 'chat_id' => $message->getChat()->getId(),
                 'text'    => "Добро пожаловать!",
                 'disable_notification' => true,
             ]);
+            
         }
         
     }
@@ -94,6 +110,7 @@ class Events
         
         /** @var KeybordQuestion $keybord */
         $keybord = $this->serviceManager->get(KeybordQuestion::class);
+        $keybord->setCurentUserId((string)$message->getFrom()->getId());
         /** @var  TelegramRestrict $restrictionService */
         $question = $keybord->getQuestion();
         
@@ -115,7 +132,7 @@ class Events
         /** @var  TelegramRestrict $restrictionService */
         $restrictionService = $this->serviceManager->get(TelegramRestrict::class);
         // Ограничить нового пользователя в правах, до ответа на вопрос
-       
+        
         
         return  Request::sendMessage(
             array_merge([

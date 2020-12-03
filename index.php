@@ -33,9 +33,7 @@ if ($appMode === 'application') {
     if (file_exists(__DIR__ . '/config/development.config.php')) {
         $appConfig = ArrayUtils::merge($appConfig, require __DIR__ . '/config/development.config.php');
     }
-    
     $app =  Application::init($appConfig);
-    //$app->bootstrap();
     $app->run();
 
     

@@ -8,7 +8,7 @@ namespace Telegram\Commands;
 use Longman\TelegramBot\Commands\SystemCommand;
 use Longman\TelegramBot\Request;
 use Telegram\Map\Events;
-use Telegram\Map\QuestionKeyboard;
+
 
 
 class CallbackqueryCommand extends SystemCommand
@@ -45,18 +45,12 @@ class CallbackqueryCommand extends SystemCommand
         $message = $callback->getMessage();
         /** @var \Longman\TelegramBot\Entities\User $user */
         $user = $callback->getFrom();
-        $answer = $callback->getData();
-        
-        $approved = false;
-        
-        if ($answer === QuestionKeyboard::CALLBACK_ANSWER_HUMAN) {
-            $approved = true;
-        }
-        
+
+
         $eventManager->trigger(
             Events::NEW_USER_CREATED_AN_ANSWER_VERIFICATION_QUESTION,
             null,
-            ['message' => $message,'user' => $user,'approved' => $approved,'answer' => $answer]
+            ['message' => $message,'user' => $user,'callback' => $callback]
         );
         
         return Request::emptyResponse();
