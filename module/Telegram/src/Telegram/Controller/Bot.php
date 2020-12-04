@@ -91,7 +91,7 @@ public function echoAction()
     } finally {
         $view = new JsonModel();
         $view->setVariables(['response' =>['success' => true,'result' => $viewResult]]);
-        $view->setTemplate('application/index/json');
+        $view->setTemplate('telegram/index/json');
         $headers = $this->getResponse()->getHeaders();
         $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json']));
         

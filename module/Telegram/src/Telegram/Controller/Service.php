@@ -52,10 +52,12 @@ class Service extends AbstractActionController
      */
     public function setHookAction()
     {
+        $route = $this->getRequest()->getUri()->getPath();
+
         if ($this->isDisabledSet()) {
             $view = new JsonModel();
             $view->setVariables(['response' =>['success' => true,'result' => 'disable']]);
-            $view->setTemplate('application/index/json');
+            $view->setTemplate('telegram/index/json');
             $headers = $this->getResponse()->getHeaders();
             $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json']));
     
@@ -67,7 +69,7 @@ class Service extends AbstractActionController
         $viewResult = '';
         try {
             $telegram = new Telegram($options->getApiKey(),$options->getBotUsername());
-            $result = $telegram->setWebhook($options->getBootHookUrl());
+            $result = $telegram->setWebhook($options->getBootHookUrl().$route);
             if ($result->isOk()) {
                 $viewResult =  $result->getDescription();
             }
@@ -76,7 +78,7 @@ class Service extends AbstractActionController
         } finally {
             $view = new JsonModel();
             $view->setVariables(['response' =>['success' => true,'result' => $viewResult]]);
-            $view->setTemplate('application/index/json');
+            $view->setTemplate('telegram/index/json');
             $headers = $this->getResponse()->getHeaders();
             $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json']));
             
