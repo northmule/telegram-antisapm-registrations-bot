@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3f2bc44a36be13e27e11f0e4a6aba60",
+    "content-hash": "4b18655b1483a5882384c8cf57235bb3",
     "packages": [
         {
             "name": "brick/math",
@@ -3294,66 +3294,6 @@
             "time": "2019-12-31T16:31:45+00:00"
         },
         {
-            "name": "laminas/laminas-development-mode",
-            "version": "3.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laminas/laminas-development-mode.git",
-                "reference": "dccbfc5a1503eb3f3805869525258ca6e6f6a0ce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-development-mode/zipball/dccbfc5a1503eb3f3805869525258ca6e6f6a0ce",
-                "reference": "dccbfc5a1503eb3f3805869525258ca6e6f6a0ce",
-                "shasum": ""
-            },
-            "require": {
-                "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^5.6 || ^7.0"
-            },
-            "replace": {
-                "zfcampus/zf-development-mode": "^3.2.0"
-            },
-            "require-dev": {
-                "laminas/laminas-coding-standard": "~1.0.0",
-                "mikey179/vfsstream": "^1.6.5",
-                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.5"
-            },
-            "bin": [
-                "bin/laminas-development-mode"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Laminas\\DevelopmentMode\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "Laminas development mode script",
-            "homepage": "https://laminas.dev",
-            "keywords": [
-                "framework",
-                "laminas"
-            ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-development-mode/issues",
-                "rss": "https://github.com/laminas/laminas-development-mode/releases.atom",
-                "source": "https://github.com/laminas/laminas-development-mode"
-            },
-            "funding": [
-                {
-                    "url": "https://funding.communitybridge.org/projects/laminas-project",
-                    "type": "community_bridge"
-                }
-            ],
-            "time": "2020-08-03T14:07:04+00:00"
-        },
-        {
             "name": "laminas/laminas-escaper",
             "version": "2.7.0",
             "source": {
@@ -5121,6 +5061,68 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.10.3"
             },
             "time": "2020-12-03T17:45:45+00:00"
+        },
+        {
+            "name": "northmule/telegram-bot-anti-registration",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/northmule/bot-telegram-anti-registration.git",
+                "reference": "6a056f90a3fe94e16d2f2b30224a33922fd559b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/northmule/bot-telegram-anti-registration/zipball/6a056f90a3fe94e16d2f2b30224a33922fd559b3",
+                "reference": "6a056f90a3fe94e16d2f2b30224a33922fd559b3",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-orm-module": "^3.1",
+                "doctrine/migrations": "^3.0",
+                "doctrine/orm": "^2.7",
+                "ext-pdo": "*",
+                "laminas/laminas-eventmanager": "^3.3",
+                "laminas/laminas-json": "^3.1",
+                "laminas/laminas-log": "^2.13",
+                "laminas/laminas-mvc": "^3.1",
+                "laminas/laminas-mvc-console": "^1.2",
+                "laminas/laminas-router": "^3.4",
+                "laminas/laminas-servicemanager": "^3.4",
+                "longman/telegram-bot": "^0.64.0",
+                "php": ">=7.4",
+                "ramsey/uuid": "^4.1",
+                "vlucas/phpdotenv": "^5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Northmule\\Telegram\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Djo Programmer",
+                    "email": "izm@zixn.ru",
+                    "homepage": "https://zixn.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel module for creating a Telegram bot to deal with auto registration",
+            "homepage": "https://bot.zixn.ru",
+            "keywords": [
+                "bot",
+                "laminas",
+                "telegram"
+            ],
+            "support": {
+                "issues": "https://github.com/northmule/bot-telegram-anti-registration/issues",
+                "source": "https://github.com/northmule/bot-telegram-anti-registration/tree/1.0.2"
+            },
+            "time": "2020-12-04T15:55:22+00:00"
         },
         {
             "name": "ocramius/proxy-manager",

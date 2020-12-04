@@ -4,5 +4,6 @@ return [
     'Laminas\Router',
     'DoctrineModule',
     'DoctrineORMModule',
-    'Coderun\Telegram'
+    'Application',
+    'Northmule\Telegram',
 ];
