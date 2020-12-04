@@ -10,7 +10,7 @@ return [
                 'options'       => [
                     'route' => '/',
                     'defaults' => [
-                        'controller' => Telegram\Controller\Bot::class,
+                        'controller' => Coderun\Telegram\Controller\Bot::class,
                         'action'     => 'home',
                     ],
                 ],
@@ -21,7 +21,7 @@ return [
                 'options'       => [
                     'route' => '/bot-echo',
                     'defaults' => [
-                        'controller' => Telegram\Controller\Bot::class,
+                        'controller' => Coderun\Telegram\Controller\Bot::class,
                         'action'     => 'echo',
                     ],
                 ],
@@ -32,7 +32,7 @@ return [
                 'options'       => [
                     'route' => '/set-hook',
                     'defaults' => [
-                        'controller' => Telegram\Controller\Service::class,
+                        'controller' => Coderun\Telegram\Controller\Service::class,
                         'action'     => 'setHook',
                     ],
                 ],

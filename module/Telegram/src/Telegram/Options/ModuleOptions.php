@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Telegram\Options;
+namespace Coderun\Telegram\Options;
 
 use Laminas\Stdlib\AbstractOptions;
 

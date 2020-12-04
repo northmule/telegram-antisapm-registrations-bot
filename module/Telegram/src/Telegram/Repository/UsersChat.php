@@ -1,5 +1,5 @@
 <?php
-namespace Telegram\Repository;
+namespace Coderun\Telegram\Repository;
 
 use Doctrine\ORM\EntityRepository;
 

@@ -1,12 +1,13 @@
 <?php
 
-namespace Telegram\Commands;
+namespace Coderun\Telegram\Commands;
 
+use Coderun\Telegram\Service\TelegramApi;
 use Laminas\EventManager\EventManager;
 use Longman\TelegramBot\Commands\SystemCommand;
 use Longman\TelegramBot\Entities\ServerResponse;
 use Longman\TelegramBot\Exception\TelegramException;
-use Telegram\Map\Events;
+use Coderun\Telegram\Map\Events;
 use Longman\TelegramBot\Request;
 
 
@@ -14,11 +15,10 @@ use Longman\TelegramBot\Request;
  * Команда вызывается когда в группу вступает новый участник
  * Class NewchatmembersCommand
  *
- * @package Telegram\Commands
+ * @package Coderun\Telegram\Commands
  */
 class NewchatmembersCommand extends SystemCommand
 {
-    use AppTrait;
     /**
      * @var string
      */
@@ -42,8 +42,9 @@ class NewchatmembersCommand extends SystemCommand
      */
     public function execute(): ServerResponse
     {
+        /** @var TelegramApi $this->telegram */
         /** @var \Laminas\EventManager\EventManager $eventManager */
-        $eventManager = $this->getServiceManager()->get(EventManager::class);
+        $eventManager = $this->telegram->getServiceManager()->get(EventManager::class);
         /** @var \Laminas\ServiceManager\ServiceManager $serviceManager */
         /** @var \Longman\TelegramBot\Entities\Message $message */
         $message = $this->getMessage();

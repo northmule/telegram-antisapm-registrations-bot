@@ -1,12 +1,12 @@
 <?php
-namespace Telegram\Events\Factory;
+namespace Coderun\Telegram\Events\Factory;
 
 
 use Interop\Container\ContainerInterface;
 use Laminas\Log\Logger;
 use Laminas\ServiceManager\Factory\FactoryInterface;
-use Telegram\Events\Events as EventsService;
-use Telegram\Options\ModuleOptions;
+use Coderun\Telegram\Events\Events as EventsService;
+use Coderun\Telegram\Options\ModuleOptions;
 
 
 class Events implements FactoryInterface
@@ -17,7 +17,7 @@ class Events implements FactoryInterface
         $entityManager = $container->get('doctrine.entitymanager.orm_default');
         /** @var \Laminas\Form\FormElementManager\FormElementManagerV3Polyfill $formManager */
         $serviceManager = $container->get('ServiceManager');
-        /** @var \Telegram\Options\ModuleOptions $options */
+        /** @var \Coderun\Telegram\Options\ModuleOptions $options */
         $options = $container->get(ModuleOptions::class);
         $logger = new Logger();
         if ($options->getFileLog()) {

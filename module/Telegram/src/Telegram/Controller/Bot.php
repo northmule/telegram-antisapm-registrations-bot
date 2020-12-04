@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Telegram\Controller;
+namespace Coderun\Telegram\Controller;
 
 
+use Coderun\Telegram\Service\TelegramApi;
 use Laminas\Json\Json;
 use Laminas\Log\Logger;
 use Laminas\Mvc\Controller\AbstractController;
@@ -15,8 +16,7 @@ use Laminas\Mvc\Controller\AbstractActionController;
 use Laminas\View\Model\JsonModel;
 use Laminas\View\Model\ViewModel;
 use Laminas\View\View;
-use Longman\TelegramBot\Telegram;
-use Telegram\Options\ModuleOptions;
+use Coderun\Telegram\Options\ModuleOptions;
 
 
 class Bot extends AbstractActionController
@@ -39,7 +39,7 @@ class Bot extends AbstractActionController
     protected $logger;
     
     /**
-     * @var Telegram
+     * @var TelegramApi
      */
     protected $telegram;
     
@@ -54,7 +54,7 @@ class Bot extends AbstractActionController
         EntityManager $entityManager,
         ServiceManager $serviceManager,
         Logger $logger,
-        Telegram $telegram
+        TelegramApi $telegram
     )
     {
         $this->entityManager = $entityManager;

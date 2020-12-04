@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Telegram\Service;
+namespace Coderun\Telegram\Service;
 
 use Longman\TelegramBot\Request;
 
@@ -15,7 +15,7 @@ use Longman\TelegramBot\Request;
  * @see https://core.telegram.org/bots/api#chatpermissions
  * @see https://core.telegram.org/bots/api#restrictchatmember
  *
- * @package Telegram\Service
+ * @package Coderun\Telegram\Service
  */
 class TelegramRestrict
 {

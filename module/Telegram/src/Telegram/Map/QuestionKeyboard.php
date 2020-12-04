@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Telegram\Map;
+namespace Coderun\Telegram\Map;
 
 class QuestionKeyboard
 {

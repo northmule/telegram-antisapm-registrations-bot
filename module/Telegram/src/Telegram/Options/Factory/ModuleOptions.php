@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Telegram\Options\Factory;
+namespace Coderun\Telegram\Options\Factory;
 
 
 
@@ -10,7 +10,7 @@ use Interop\Container\Exception\ContainerException;
 use Laminas\ServiceManager\Exception\ServiceNotCreatedException;
 use Laminas\ServiceManager\Exception\ServiceNotFoundException;
 use Laminas\ServiceManager\Factory\FactoryInterface;
-use Telegram\Options\ModuleOptions as Options;
+use Coderun\Telegram\Options\ModuleOptions as Options;
 
 class ModuleOptions implements FactoryInterface
 {

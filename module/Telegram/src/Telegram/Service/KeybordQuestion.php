@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Telegram\Service;
+namespace Coderun\Telegram\Service;
 
 use Longman\TelegramBot\Entities\InlineKeyboard;
-use Telegram\Map\QuestionKeyboard as QuestionKeyboardMap;
+use Coderun\Telegram\Map\QuestionKeyboard as QuestionKeyboardMap;
 
 /**
  * @see https://github.com/php-telegram-bot/example-bot/blob/master/Commands/Keyboard/KeyboardCommand.php
  * @see https://github.com/php-telegram-bot/example-bot/blob/master/Commands/Keyboard/InlinekeyboardCommand.php
  * Class KeybordQuestion
  *
- * @package Telegram\Service
+ * @package Coderun\Telegram\Service
  */
 class KeybordQuestion
 {

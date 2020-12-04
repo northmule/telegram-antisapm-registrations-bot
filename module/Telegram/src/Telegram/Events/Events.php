@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Telegram\Events;
+namespace Coderun\Telegram\Events;
 
 use Doctrine\ORM\EntityManager;
 use Laminas\EventManager\Event;
@@ -14,11 +14,11 @@ use Longman\TelegramBot\Entities\Message;
 use Longman\TelegramBot\Entities\User;
 use Longman\TelegramBot\Entities\User as UserEntities;
 use Longman\TelegramBot\Request;
-use Telegram\Entity\UsersChat;
-use Telegram\Map\Events as EventsMap;
-use Telegram\Map\QuestionKeyboard;
-use Telegram\Service\KeybordQuestion;
-use Telegram\Service\TelegramRestrict;
+use Coderun\Telegram\Entity\UsersChat;
+use Coderun\Telegram\Map\Events as EventsMap;
+use Coderun\Telegram\Map\QuestionKeyboard;
+use Coderun\Telegram\Service\KeybordQuestion;
+use Coderun\Telegram\Service\TelegramRestrict;
 
 
 class Events

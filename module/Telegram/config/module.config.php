@@ -5,28 +5,27 @@ use Interop\Container\ContainerInterface;
 return [
     'service_manager' =>[
         'factories' => [
-            Telegram\Options\ModuleOptions::class => Telegram\Options\Factory\ModuleOptions::class,
-            Telegram\Commands\NewchatmembersCommand::class => Telegram\Commands\Factory\NewchatMembers::class,
-            Telegram\Events\Events::class => \Telegram\Events\Factory\Events::class,
+            Coderun\Telegram\Options\ModuleOptions::class => Coderun\Telegram\Options\Factory\ModuleOptions::class,
+            Coderun\Telegram\Commands\NewchatmembersCommand::class => Coderun\Telegram\Commands\Factory\NewchatMembers::class,
+            Coderun\Telegram\Events\Events::class => Coderun\Telegram\Events\Factory\Events::class,
+            Coderun\Telegram\Service\TelegramApi::class => Coderun\Telegram\Service\Factory\TelegramApi::class,
         ],
         'invokables' => [
-            Telegram\Service\KeybordQuestion::class => Telegram\Service\KeybordQuestion::class,
-            Telegram\Service\TelegramRestrict::class => Telegram\Service\TelegramRestrict::class,
+            Coderun\Telegram\Service\KeybordQuestion::class => Coderun\Telegram\Service\KeybordQuestion::class,
+            Coderun\Telegram\Service\TelegramRestrict::class => Coderun\Telegram\Service\TelegramRestrict::class,
             \Laminas\EventManager\EventManager::class => \Laminas\EventManager\EventManager::class
-           
-        ],
-        'aliases' => [
 
-        ]
+        ],
+        'aliases' => []
     ],
     'controllers' => [
         'factories' =>
             [
-                Telegram\Controller\Bot::class => Telegram\Controller\Factory\Bot::class,
-                Telegram\Controller\Service::class =>  Telegram\Controller\Factory\Service::class,
+                Coderun\Telegram\Controller\Bot::class => Coderun\Telegram\Controller\Factory\Bot::class,
+                Coderun\Telegram\Controller\Service::class =>  Coderun\Telegram\Controller\Factory\Service::class,
             ],
     ],
-    Telegram\Module::class => [
+    Coderun\Telegram\Module::class => [
         'disableRouteSet' => getenv('APP_MODULE_TELEGRAM_DISABLE_SET'),
     ],
     'logger' => [

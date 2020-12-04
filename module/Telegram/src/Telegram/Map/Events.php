@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Telegram\Map;
+namespace Coderun\Telegram\Map;
 
 /**
  * Имена событий
  *
  * Class Events
  *
- * @package Telegram\Map
+ * @package Coderun\Telegram\Map
  */
 class Events
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Telegram\Controller;
+namespace Coderun\Telegram\Controller;
 
 
 use Laminas\Json\Json;
@@ -12,7 +12,7 @@ use Laminas\ServiceManager\ServiceManager;
 use Doctrine\ORM\EntityManager;
 use Laminas\Mvc\Controller\AbstractActionController;
 use Laminas\View\Model\JsonModel;
-use Telegram\Options\ModuleOptions;
+use Coderun\Telegram\Options\ModuleOptions;
 use Longman\TelegramBot\Telegram;
 
 
@@ -64,7 +64,7 @@ class Service extends AbstractActionController
             return $view;
         }
 
-        /** @var \Telegram\Options\ModuleOptions $options */
+        /** @var \Coderun\Telegram\Options\ModuleOptions $options */
         $options = $this->serviceManager->get(ModuleOptions::class);
         $viewResult = '';
         try {
@@ -73,7 +73,7 @@ class Service extends AbstractActionController
             if ($result->isOk()) {
                 $viewResult =  $result->getDescription();
             }
-        } catch (Longman\TelegramBot\Exception\TelegramException $e) {
+        } catch (\Longman\TelegramBot\Exception\TelegramException $e) {
             $viewResult =  $e->getMessage();
         } finally {
             $view = new JsonModel();
@@ -97,11 +97,11 @@ class Service extends AbstractActionController
     {
         $config = $this->serviceManager->get('config');
         
-        if (!array_key_exists('disableRouteSet',$config[\Telegram\Module::class])) {
+        if (!array_key_exists('disableRouteSet',$config[\Coderun\Telegram\Module::class])) {
             return true;
         }
         
-        $isDisable = (boolean)$config[\Telegram\Module::class]['disableRouteSet'];
+        $isDisable = (boolean)$config[\Coderun\Telegram\Module::class]['disableRouteSet'];
         return $isDisable;
     }
     

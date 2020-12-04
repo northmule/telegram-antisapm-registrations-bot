@@ -2,19 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Telegram\Commands;
+namespace Coderun\Telegram\Commands;
 
 
+use Coderun\Telegram\Service\TelegramApi;
 use Laminas\EventManager\EventManager;
+use Laminas\ModuleManager\Listener\ServiceListenerInterface;
 use Longman\TelegramBot\Commands\SystemCommand;
 use Longman\TelegramBot\Request;
-use Telegram\Map\Events;
+use Coderun\Telegram\Map\Events;
 
 
 
 class CallbackqueryCommand extends SystemCommand
 {
-    use AppTrait;
+
     /**
      * @var string
      */
@@ -38,8 +40,9 @@ class CallbackqueryCommand extends SystemCommand
      */
     public function execute(): ServerResponse
     {
+        /** @var TelegramApi $this->telegram */
         /** @var \Laminas\EventManager\EventManager $eventManager */
-        $eventManager = $this->getServiceManager()->get(EventManager::class);
+        $eventManager = $this->telegram->getServiceManager()->get(EventManager::class);
         /** @var \Longman\TelegramBot\Entities\CallbackQuery $callback */
         $callback = $this->getCallbackQuery();
         /** @var \Longman\TelegramBot\Entities\Message $message */

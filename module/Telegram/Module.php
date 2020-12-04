@@ -1,11 +1,11 @@
 <?php
-namespace Telegram;
+namespace Coderun\Telegram;
 
 use Laminas\EventManager\EventManager;
 use Laminas\ModuleManager\Feature\ConfigProviderInterface;
 use Laminas\Mvc\MvcEvent;
-use Telegram\Events\Events;
-use Telegram\Map\Events as EventsMap;
+use Coderun\Telegram\Events\Events;
+use Coderun\Telegram\Map\Events as EventsMap;
 
 /**
  * Модуль бота Телеграм
@@ -18,7 +18,7 @@ class Module implements ConfigProviderInterface
     
     public function onBootstrap(MvcEvent $e)
     {
-        /** @var \Telegram\Events\Events $eventsService */
+        /** @var \Coderun\Telegram\Events\Events $eventsService */
         $eventsService = $e->getApplication()->getServiceManager()->get(Events::class);
         $eventManager = $e->getApplication()->getServiceManager()->get(EventManager::class);
         $eventManager->attach(EventsMap::NEW_USER_CREATED_AN_ANSWER_VERIFICATION_QUESTION,[$eventsService,'checkUsersResponse']);

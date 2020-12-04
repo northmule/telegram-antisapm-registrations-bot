@@ -1,13 +1,13 @@
 <?php
 
-namespace Telegram\Entity;
+namespace Coderun\Telegram\Entity;
 
-use Telegram\Entity\DefaultFields;
+use Coderun\Telegram\Entity\DefaultFields;
 use Doctrine\ORM\Mapping as Doctrine;
 
 
 /**
- * @Doctrine\Entity (repositoryClass="\Telegram\Repository\UsersChat")
+ * @Doctrine\Entity (repositoryClass="\Coderun\Telegram\Repository\UsersChat")
  * @Doctrine\HasLifecycleCallbacks
  * @Doctrine\Table (name="coderun_bot_telegram_users_chat",
  *     options={"comment":"Пользователи чата"},

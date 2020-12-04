@@ -1,10 +1,10 @@
 <?php
-namespace Telegram\Controller\Factory;
+namespace Coderun\Telegram\Controller\Factory;
 
 
 use Interop\Container\ContainerInterface;
 use Laminas\ServiceManager\Factory\FactoryInterface;
-use Telegram\Controller\Service as ServiceController;
+use Coderun\Telegram\Controller\Service as ServiceController;
 
 
 

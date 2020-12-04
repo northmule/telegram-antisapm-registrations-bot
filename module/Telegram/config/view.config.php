@@ -10,7 +10,7 @@ return [
             'telegram/main/index' =>  __DIR__ .'/../view/telegram/main/index.phtml',
         ],
         'template_path_stack' => [
-            Telegram\Module::class => __DIR__ .'/../view',
+            Coderun\Telegram\Module::class => __DIR__ .'/../view',
         ],
     
     ],

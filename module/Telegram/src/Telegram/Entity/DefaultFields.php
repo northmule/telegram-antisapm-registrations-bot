@@ -1,6 +1,6 @@
 <?php
 
-namespace Telegram\Entity;
+namespace Coderun\Telegram\Entity;
 
 use DateTime;
 

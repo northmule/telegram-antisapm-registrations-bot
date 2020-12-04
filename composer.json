@@ -1,6 +1,4 @@
 {
-    "name": "The skeleton application Telegram Bot",
-    "description": "Skeleton of a Laminas-based application to deploy an anti-spam bot for the service on your site",
     "require": {
         "doctrine/doctrine-orm-module": "^3.1",
         "doctrine/migrations": "^3.0",

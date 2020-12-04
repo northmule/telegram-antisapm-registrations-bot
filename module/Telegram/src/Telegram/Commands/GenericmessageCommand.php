@@ -2,8 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Telegram\Commands;
+namespace Coderun\Telegram\Commands;
 
+use Coderun\Telegram\Service\TelegramApi;
+use Laminas\EventManager\EventManager;
 use Longman\TelegramBot\Commands\SystemCommand;
 use Longman\TelegramBot\Entities\ServerResponse;
 use Longman\TelegramBot\Exception\TelegramException;
@@ -41,6 +43,10 @@ class GenericmessageCommand extends SystemCommand
      */
     public function execute(): ServerResponse
     {
+        /** @var TelegramApi $this->telegram */
+        /** @var \Laminas\EventManager\EventManager $eventManager */
+        $eventManager = $this->telegram->getServiceManager()->get(EventManager::class);
+        
         /** @var \Longman\TelegramBot\Entities\Message $message */
         $message = $this->getMessage();
         

@@ -11,7 +11,7 @@ return [
             ],
             'orm_default' => [
                 'drivers' => [
-                    'Telegram\Entity' => 'telegram_entity_driver'
+                    'Coderun\Telegram\Entity' => 'telegram_entity_driver'
                 ]
             
             ],
