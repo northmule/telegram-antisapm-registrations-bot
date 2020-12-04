@@ -7,7 +7,7 @@
  * @see https://docs.laminas.dev/tutorials/advanced-config/#environment-specific-application-configuration
  */
 
-require 'init_env.php';
+require __DIR__.'/../init_env.php';
 
 return [
     // Retrieve list of modules used in this application.

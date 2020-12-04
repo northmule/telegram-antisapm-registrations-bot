@@ -13,6 +13,8 @@ use Laminas\ServiceManager\ServiceManager;
 use Doctrine\ORM\EntityManager;
 use Laminas\Mvc\Controller\AbstractActionController;
 use Laminas\View\Model\JsonModel;
+use Laminas\View\Model\ViewModel;
+use Laminas\View\View;
 use Longman\TelegramBot\Telegram;
 use Telegram\Options\ModuleOptions;
 
@@ -68,12 +70,8 @@ public function homeAction()
 
 public function indexAction()
 {
-    $view = new JsonModel();
-    $view->setVariables(['response' =>['success' => true,'result' => null]]);
-    $view->setTemplate('application/index/json');
-    $headers = $this->getResponse()->getHeaders();
-    $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json','X-Powered-By' => 'Bot']));
-    
+    $view = new ViewModel();
+    $view->setTemplate('telegram/main/index');
     return $view;
 }
 
@@ -82,7 +80,7 @@ public function echoAction()
     
     $options = $this->serviceManager->get(ModuleOptions::class);
     $this->logger->info('Telegram данные: '.$this->getRequest()->getContent());
-    $viewResult = '';
+    $viewResult = 'ok';
     try {
         // Запуск Commands/....
        $this->telegram->handle();
@@ -95,7 +93,7 @@ public function echoAction()
         $view->setVariables(['response' =>['success' => true,'result' => $viewResult]]);
         $view->setTemplate('application/index/json');
         $headers = $this->getResponse()->getHeaders();
-        $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json','X-Powered-By' => 'Bot']));
+        $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json']));
         
         return $view;
     }

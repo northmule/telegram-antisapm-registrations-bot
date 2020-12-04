@@ -57,7 +57,7 @@ class Service extends AbstractActionController
             $view->setVariables(['response' =>['success' => true,'result' => 'disable']]);
             $view->setTemplate('application/index/json');
             $headers = $this->getResponse()->getHeaders();
-            $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json','X-Powered-By' => 'Bot']));
+            $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json']));
     
             return $view;
         }
@@ -78,7 +78,7 @@ class Service extends AbstractActionController
             $view->setVariables(['response' =>['success' => true,'result' => $viewResult]]);
             $view->setTemplate('application/index/json');
             $headers = $this->getResponse()->getHeaders();
-            $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json','X-Powered-By' => 'Bot']));
+            $this->getResponse()->setHeaders($headers->addHeaders(['Content-Type'=>'application/json']));
             
             return $view;
         }
