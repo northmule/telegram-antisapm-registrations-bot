@@ -3,9 +3,9 @@
   "message": {
     "message_id": 45,
     "from": {
-      "id": 819685182,
+      "id": 818684187,
       "is_bot": false,
-      "first_name": "Жанна"
+      "first_name": "Аркадий"
     },
     "chat": {
       "id": -1001421051123,
@@ -15,14 +15,14 @@
     },
     "date": 1606985055,
     "left_chat_participant": {
-      "id": 819685182,
+      "id": 818684187,
       "is_bot": false,
-      "first_name": "Жанна"
+      "first_name": "Аркадий"
     },
     "left_chat_member": {
-      "id": 819685182,
+      "id": 818684187,
       "is_bot": false,
-      "first_name": "Жанна"
+      "first_name": "Аркадий"
     }
   }
 }
