@@ -12,10 +12,11 @@ return [
         'invokables' => [
             Telegram\Service\KeybordQuestion::class => Telegram\Service\KeybordQuestion::class,
             Telegram\Service\TelegramRestrict::class => Telegram\Service\TelegramRestrict::class,
+            \Laminas\EventManager\EventManager::class => \Laminas\EventManager\EventManager::class
            
         ],
         'aliases' => [
-            //  'SharedEventManager' => Laminas\EventManager\SharedEventManager::class,
+
         ]
     ],
     'controllers' => [
@@ -29,6 +30,6 @@ return [
         'disableRouteSet' => getenv('APP_MODULE_TELEGRAM_DISABLE_SET'),
     ],
     'logger' => [
-        'telegramLog' => __DIR__.'/../../data/logs/telegram.log'
+        'telegramLog' => __DIR__.'/../../../data/logs/telegram.log'
     ]
 ];

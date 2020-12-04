@@ -24,7 +24,7 @@ class Bot implements FactoryInterface
         $serviceManager = $container->get('ServiceManager');
         $logger = new Logger();
         if ($options->getTelegramLog()) {
-            $logger->addWriter(new \Laminas\Log\Writer\Stream($options->getFileLog()));
+            $logger->addWriter(new \Laminas\Log\Writer\Stream($options->getTelegramLog()));
         }
         
         try {

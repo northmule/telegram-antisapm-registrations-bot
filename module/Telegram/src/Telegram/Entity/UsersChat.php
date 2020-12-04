@@ -19,7 +19,7 @@ class UsersChat
     
     use DefaultFields;
     /**
-     * @var string
+     * @var int
      *
      * @Doctrine\Column(name="userId", type="bigint", nullable=true,options={"comment":"ИД пользователя Телеграм"})
      */
@@ -73,11 +73,11 @@ class UsersChat
     /**
      * Set userId
      *
-     * @param string $userId
+     * @param int $userId
      *
      * @return UsersChat
      */
-    public function setUserId(string $userId): UsersChat
+    public function setUserId(int $userId): UsersChat
     {
         $this->userId = $userId;
         return $this;

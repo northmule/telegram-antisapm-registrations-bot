@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Telegram\Commands;
 
 
+use Laminas\EventManager\EventManager;
 use Longman\TelegramBot\Commands\SystemCommand;
 use Longman\TelegramBot\Request;
 use Telegram\Map\Events;
@@ -38,7 +39,7 @@ class CallbackqueryCommand extends SystemCommand
     public function execute(): ServerResponse
     {
         /** @var \Laminas\EventManager\EventManager $eventManager */
-        $eventManager = $this->getApplication()->getEventManager();
+        $eventManager = $this->getServiceManager()->get(EventManager::class);
         /** @var \Longman\TelegramBot\Entities\CallbackQuery $callback */
         $callback = $this->getCallbackQuery();
         /** @var \Longman\TelegramBot\Entities\Message $message */

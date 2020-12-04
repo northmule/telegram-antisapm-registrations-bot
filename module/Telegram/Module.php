@@ -1,6 +1,7 @@
 <?php
 namespace Telegram;
 
+use Laminas\EventManager\EventManager;
 use Laminas\ModuleManager\Feature\ConfigProviderInterface;
 use Laminas\Mvc\MvcEvent;
 use Telegram\Events\Events;
@@ -19,8 +20,11 @@ class Module implements ConfigProviderInterface
     {
         /** @var \Telegram\Events\Events $eventsService */
         $eventsService = $e->getApplication()->getServiceManager()->get(Events::class);
-        $e->getApplication()->getEventManager()->attach(EventsMap::NEW_USER_CREATED_AN_ANSWER_VERIFICATION_QUESTION,[$eventsService,'checkUsersResponse']);
-        $e->getApplication()->getEventManager()->attach(EventsMap::NEW_USER_SENT_REQUEST_TO_JOIN_GROUP,[$eventsService,'processRequestToJoinGroup']);
+        $eventManager = $e->getApplication()->getServiceManager()->get(EventManager::class);
+        $eventManager->attach(EventsMap::NEW_USER_CREATED_AN_ANSWER_VERIFICATION_QUESTION,[$eventsService,'checkUsersResponse']);
+        $eventManager->attach(EventsMap::NEW_USER_SENT_REQUEST_TO_JOIN_GROUP,[$eventsService,'processRequestToJoinGroup']);
+        $eventManager->attach(EventsMap::NEW_USER_SENT_REQUEST_TO_JOIN_GROUP,[$eventsService,'addUserToTable']);
+        $eventManager->attach(EventsMap::THE_NEW_USER_ANSWERED_CORRECTLY,[$eventsService,'updateUserToTable']);
 
     }
     

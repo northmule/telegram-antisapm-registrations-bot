@@ -2,6 +2,7 @@
 
 namespace Telegram\Commands;
 
+use Laminas\EventManager\EventManager;
 use Longman\TelegramBot\Commands\SystemCommand;
 use Longman\TelegramBot\Entities\ServerResponse;
 use Longman\TelegramBot\Exception\TelegramException;
@@ -42,7 +43,7 @@ class NewchatmembersCommand extends SystemCommand
     public function execute(): ServerResponse
     {
         /** @var \Laminas\EventManager\EventManager $eventManager */
-        $eventManager = $this->getApplication()->getEventManager();
+        $eventManager = $this->getServiceManager()->get(EventManager::class);
         /** @var \Laminas\ServiceManager\ServiceManager $serviceManager */
         /** @var \Longman\TelegramBot\Entities\Message $message */
         $message = $this->getMessage();

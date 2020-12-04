@@ -10,7 +10,7 @@ return [
                     'driver'   => 'pdo_mysql',
                     'user'     => getenv('APP_DB_MAIN_USER'),
                     'password' => getenv('APP_DB_MAIN_PASSWORD'),
-                    'dbname'   => getenv('APP_DB_HOST'),
+                    'dbname'   => getenv('APP_DB_DBNAME'),
                     'host' => getenv('APP_DB_HOST'),
                     'charset' => getenv('APP_DB_CHARSET'),
                     'port' => getenv('APP_DB_PORT'),

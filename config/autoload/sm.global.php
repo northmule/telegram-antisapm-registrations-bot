@@ -2,11 +2,7 @@
 
 return [
     'service_manager' => [
-        'factories'  => [
-
-        ],
-        'invokables' => [
-        
-        ]
+        'factories'  => [],
+        'invokables' => []
     ],
 ];
