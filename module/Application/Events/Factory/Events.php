@@ -5,7 +5,7 @@ namespace Application\Events\Factory;
 use Interop\Container\ContainerInterface;
 use Laminas\Log\Logger;
 use Laminas\ServiceManager\Factory\FactoryInterface;
-use Northmule\Telegram\Events\Events as EventsService;
+use Application\Events\Events as EventsService;
 use Northmule\Telegram\Options\ModuleOptions;
 
 

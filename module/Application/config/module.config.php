@@ -3,14 +3,16 @@
 
 return [
     'service_manager' =>[
-        'factories' => [],
+        'factories' => [
+            Application\Events\Events::class => Application\Events\Factory\Events::class
+        ],
         'invokables' => [],
         'aliases' => []
     ],
     'controllers' => [
         'factories' =>
             [
-                Application\Events\Events::class => Application\Events\Factory\Events::class
+            
             ],
         'invokables' => [
             Application\Controller\General::class => Application\Controller\General::class,

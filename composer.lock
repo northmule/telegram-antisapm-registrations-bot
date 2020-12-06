@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b18655b1483a5882384c8cf57235bb3",
+    "content-hash": "103bf94323ff0824e0eacdc26e4abfc9",
     "packages": [
         {
             "name": "brick/math",
@@ -5064,22 +5064,19 @@
         },
         {
             "name": "northmule/telegram-bot-anti-registration",
-            "version": "1.0.2",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/northmule/bot-telegram-anti-registration.git",
-                "reference": "6a056f90a3fe94e16d2f2b30224a33922fd559b3"
+                "reference": "cd47b34cdb09a634a6c0db11908bc3ff8e50c784"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/northmule/bot-telegram-anti-registration/zipball/6a056f90a3fe94e16d2f2b30224a33922fd559b3",
-                "reference": "6a056f90a3fe94e16d2f2b30224a33922fd559b3",
+                "url": "https://api.github.com/repos/northmule/bot-telegram-anti-registration/zipball/cd47b34cdb09a634a6c0db11908bc3ff8e50c784",
+                "reference": "cd47b34cdb09a634a6c0db11908bc3ff8e50c784",
                 "shasum": ""
             },
             "require": {
-                "doctrine/doctrine-orm-module": "^3.1",
-                "doctrine/migrations": "^3.0",
-                "doctrine/orm": "^2.7",
                 "ext-pdo": "*",
                 "laminas/laminas-eventmanager": "^3.3",
                 "laminas/laminas-json": "^3.1",
@@ -5120,9 +5117,9 @@
             ],
             "support": {
                 "issues": "https://github.com/northmule/bot-telegram-anti-registration/issues",
-                "source": "https://github.com/northmule/bot-telegram-anti-registration/tree/1.0.2"
+                "source": "https://github.com/northmule/bot-telegram-anti-registration/tree/1.0.6"
             },
-            "time": "2020-12-04T15:55:22+00:00"
+            "time": "2020-12-04T18:36:11+00:00"
         },
         {
             "name": "ocramius/proxy-manager",

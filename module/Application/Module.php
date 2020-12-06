@@ -3,6 +3,8 @@ namespace Application;
 
 
 use Application\Events\Events;
+use Laminas\EventManager\EventManager;
+use Laminas\Mvc\MvcEvent;
 use Northmule\Telegram\Map\Events as EventsMap;
 use Laminas\ModuleManager\Feature\ConfigProviderInterface;
 

@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping as Doctrine;
 /**
  * @Doctrine\Entity (repositoryClass="\Application\Repository\UsersChat")
  * @Doctrine\HasLifecycleCallbacks
- * @Doctrine\Table (name="Northmule_bot_telegram_users_chat",
+ * @Doctrine\Table (name="coderun_bot_telegram_users_chat",
  *     options={"comment":"Пользователи чата"},
  *     indexes={@Doctrine\Index(name="user_in_chat_idx",columns={"userId","chatId"})})
  * @Doctrine\InheritanceType("SINGLE_TABLE")
