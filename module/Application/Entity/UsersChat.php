@@ -2,7 +2,7 @@
 
 namespace Application\Entity;
 
-use Northmule\Telegram\Entity\DefaultFields;
+use Application\Entity\DefaultFields;
 use Doctrine\ORM\Mapping as Doctrine;
 
 

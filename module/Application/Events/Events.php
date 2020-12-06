@@ -14,7 +14,7 @@ use Longman\TelegramBot\Entities\Message;
 use Longman\TelegramBot\Entities\User;
 use Longman\TelegramBot\Entities\User as UserEntities;
 use Longman\TelegramBot\Request;
-use Northmule\Telegram\Entity\UsersChat;
+use Application\Entity\UsersChat;
 use Northmule\Telegram\Map\Events as EventsMap;
 use Northmule\Telegram\Map\QuestionKeyboard;
 use Northmule\Telegram\Service\KeybordQuestion;

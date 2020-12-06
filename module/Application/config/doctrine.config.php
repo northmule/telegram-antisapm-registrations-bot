@@ -11,7 +11,7 @@ return [
             ],
             'orm_default' => [
                 'drivers' => [
-                    'Application\Entity' => 'telegram_entity_driver'
+                    Application\Entity\UsersChat::class => 'telegram_entity_driver'
                 ]
             
             ],

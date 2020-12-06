@@ -29,7 +29,7 @@ class Module implements ConfigProviderInterface
             require __DIR__.'/config/view.config.php',
             require __DIR__.'/config/routes.config.php',
             require __DIR__.'/config/module.config.php',
-
+            require __DIR__.'/config/doctrine.config.php',
         );
     
         return $config;

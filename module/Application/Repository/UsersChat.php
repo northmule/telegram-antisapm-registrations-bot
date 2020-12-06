@@ -1,5 +1,5 @@
 <?php
-namespace Northmule\Telegram\Repository;
+namespace Application\Repository;
 
 use Doctrine\ORM\EntityRepository;
 
