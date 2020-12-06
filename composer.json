@@ -1,5 +1,7 @@
 {
     "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
         "northmule/telegram-bot-anti-registration": "^1.0",
         "doctrine/doctrine-orm-module": "^3.1",
         "doctrine/migrations": "^3.0",
