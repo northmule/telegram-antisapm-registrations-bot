@@ -10,5 +10,9 @@ return [
             'fileLog'     => __DIR__ . '/../../data/logs/globalLogs.log', // Путь до файла логов ошибок
         ],
         'disableRouteSet' => getenv('APP_MODULE_TELEGRAM_DISABLE_SET'), // Отключить режим настройки
+        'showGreetingAfterResponse' => getenv('APP_SHOW_GREETING_AFTER_RESPONSE') === 'yes', // Показывать приветствие после вступления в группу
+        'textOfGreeting' => getenv('APP_TEXT_OF_GREETING'), // Текст приветствия после успешного ответа
+        'textQuestion' => getenv('APP_TEXT_QUESTION'), // Текст вопроса, можно указать #user_name# - будет заменён на имя вступившего
+        'askQuestions' => getenv('APP_ASK_QUESTIONS') === 'yes', // Задавать вопросов? Если false, проверки вопросом не будет
     ],
 ];
