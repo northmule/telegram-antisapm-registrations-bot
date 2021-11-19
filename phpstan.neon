@@ -1,0 +1,10 @@
+includes:
+	- phar://vendor/phpstan/phpstan/phpstan.phar/conf/config.levelmax.neon
+
+parameters:
+    paths:
+        - module
+        - tests
+    checkMissingIterableValueType: false
+    treatPhpDocTypesAsCertain: false
+    checkGenericClassInNonGenericObjectType: false

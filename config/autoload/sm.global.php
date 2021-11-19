@@ -3,6 +3,6 @@
 return [
     'service_manager' => [
         'factories'  => [],
-        'invokables' => []
+        'invokables' => [],
     ],
 ];

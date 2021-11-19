@@ -3,7 +3,6 @@
 namespace Application\Entity;
 
 use DateTime;
-
 use Doctrine\ORM\Mapping as ORM;
 use Ramsey\Uuid\Uuid;
 
@@ -21,10 +20,9 @@ trait DefaultFields
      * @Doctrine\Column(name="id", type="integer")
      * @Doctrine\GeneratedValue(strategy = "IDENTITY")
      *
-     * @var int
+     * @var integer
      */
     protected $id;
-    
     /**
      * @ORM\Column(name="dateCreated",type="datetime", nullable=true,options={"comment":"Дата создания записи"})
      */
@@ -33,12 +31,11 @@ trait DefaultFields
      * @ORM\Column(name="dateUpdated",type="datetime", nullable=true,options={"comment":"Дата обновления записи"})
      */
     protected $dateUpdated;
-    
     /**
      * @ORM\Column (name="uuid",type="string",length=36,nullable=true,unique=true,options={"comment":"Уникальный код, автогенерируется при вставке"})
      */
     protected $uuid;
-    
+
     /**
      * Get dateCreated
      *
@@ -48,28 +45,28 @@ trait DefaultFields
     {
         return $this->dateCreated;
     }
-    
+
     /**
      * Gets triggered only on insert
-     
+
      * @ORM\PrePersist
      */
     public function onPrePersist()
     {
-        $this->dateCreated = new \DateTime("now");
+        $this->dateCreated = new \DateTime('now');
         $this->uuid = Uuid::uuid4();
     }
-    
+
     /**
      * Gets triggered every time on update
-     
+
      * @ORM\PreUpdate
      */
     public function onPreUpdate()
     {
-        $this->dateUpdated = new \DateTime("now");
+        $this->dateUpdated = new \DateTime('now');
     }
-    
+
     /**
      * Get dateUpdated
      *
@@ -79,7 +76,7 @@ trait DefaultFields
     {
         return $this->dateUpdated;
     }
-    
+
     /**
      * Get id
      *
@@ -89,7 +86,7 @@ trait DefaultFields
     {
         return $this->id;
     }
-    
+
     /**
      * Set id
      *
@@ -102,7 +99,7 @@ trait DefaultFields
         $this->id = $id;
         return $this;
     }
-    
+
     /**
      * Get uuid
      *
@@ -112,9 +109,4 @@ trait DefaultFields
     {
         return $this->uuid;
     }
-    
-    
-    
 }
-
-
