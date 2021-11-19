@@ -1,4 +1,5 @@
 <?php
+
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
 
 return [
@@ -7,15 +8,15 @@ return [
             'telegram_entity_driver' => [
                 'class' => AnnotationDriver::class,
                 'cache' => 'array',
-                'paths' => [__DIR__ . '/../Entity']
+                'paths' => [__DIR__ . '/../Entity'],
             ],
-            'orm_default' => [
+            'orm_default'            => [
                 'drivers' => [
-                    Application\Entity\UsersChat::class => 'telegram_entity_driver'
-                ]
-            
+                    Application\Entity\UsersChat::class => 'telegram_entity_driver',
+                ],
+
             ],
-        
+
         ],
-    ]
+    ],
 ];

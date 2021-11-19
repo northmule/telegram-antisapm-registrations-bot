@@ -1,22 +1,19 @@
 <?php
 
-
 return [
-    'service_manager' =>[
-        'factories' => [
-            Application\Events\Events::class => Application\Events\Factory\Events::class
+    'service_manager' => [
+        'factories'  => [
+            Application\Events\Events::class => Application\Events\Factory\Events::class,
         ],
         'invokables' => [],
-        'aliases' => []
+        'aliases'    => [],
     ],
-    'controllers' => [
+    'controllers'     => [
         'factories' =>
             [
-            
+                Application\Controller\General::class => Application\Controller\Factory\General::class,
             ],
-        'invokables' => [
-            Application\Controller\General::class => Application\Controller\General::class,
-        ],
+
     ],
 
 ];

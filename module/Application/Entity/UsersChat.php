@@ -5,7 +5,6 @@ namespace Application\Entity;
 use Application\Entity\DefaultFields;
 use Doctrine\ORM\Mapping as Doctrine;
 
-
 /**
  * @Doctrine\Entity (repositoryClass="\Application\Repository\UsersChat")
  * @Doctrine\HasLifecycleCallbacks
@@ -16,33 +15,29 @@ use Doctrine\ORM\Mapping as Doctrine;
  */
 class UsersChat
 {
-    
     use DefaultFields;
+
     /**
-     * @var int
+     * @var integer
      *
      * @Doctrine\Column(name="userId", type="bigint", nullable=true,options={"comment":"ИД пользователя Телеграм"})
      */
     protected $userId;
-    
     /**
      * @var string
      * @Doctrine\Column(name="userName",type="string",length=250,nullable=true,options={"comment":"логин пользователя"})
      */
     protected $userName;
-    
     /**
-     * @var bool
+     * @var boolean
      * @Doctrine\Column(name="approved",type="boolean",options={"comment":"Можно писать в чат или нет"})
      */
     protected $approved;
-    
     /**
      * @var string
      * @Doctrine\Column(name="languageCode",type="string",length=20,nullable=true,options={"comment":"Код языка"})
      */
     protected $languageCode;
-    
     /**
      * @var integer
      * @Doctrine\Column(name="chatId",type="bigint",nullable=false,options={"comment":"ИД чата"})
@@ -53,13 +48,12 @@ class UsersChat
      * @Doctrine\Column(name="chatName",type="string",length=250,nullable=true,options={"comment":"Имя чата"})
      */
     protected $chatName;
-    
 
     public function __construct()
     {
         $this->approved = false;
     }
-    
+
     /**
      * Get userId
      *
@@ -69,7 +63,7 @@ class UsersChat
     {
         return $this->userId;
     }
-    
+
     /**
      * Set userId
      *
@@ -82,7 +76,7 @@ class UsersChat
         $this->userId = $userId;
         return $this;
     }
-    
+
     /**
      * Get userName
      *
@@ -92,7 +86,7 @@ class UsersChat
     {
         return $this->userName;
     }
-    
+
     /**
      * Set userName
      *
@@ -105,7 +99,7 @@ class UsersChat
         $this->userName = $userName;
         return $this;
     }
-    
+
     /**
      * Get approved
      *
@@ -115,7 +109,7 @@ class UsersChat
     {
         return $this->approved;
     }
-    
+
     /**
      * Set approved
      *
@@ -128,7 +122,7 @@ class UsersChat
         $this->approved = $approved;
         return $this;
     }
-    
+
     /**
      * Get languageCode
      *
@@ -138,7 +132,7 @@ class UsersChat
     {
         return $this->languageCode;
     }
-    
+
     /**
      * Set languageCode
      *
@@ -151,7 +145,7 @@ class UsersChat
         $this->languageCode = $languageCode;
         return $this;
     }
-    
+
     /**
      * Get chatId
      *
@@ -161,7 +155,7 @@ class UsersChat
     {
         return $this->chatId;
     }
-    
+
     /**
      * Set chatId
      *
@@ -174,7 +168,7 @@ class UsersChat
         $this->chatId = $chatId;
         return $this;
     }
-    
+
     /**
      * Get chatName
      *
@@ -184,7 +178,7 @@ class UsersChat
     {
         return $this->chatName;
     }
-    
+
     /**
      * Set chatName
      *
@@ -197,10 +191,4 @@ class UsersChat
         $this->chatName = $chatName;
         return $this;
     }
-    
-    
-    
-    
-    
-    
 }

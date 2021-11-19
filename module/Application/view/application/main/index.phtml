@@ -1,6 +1,6 @@
 <?php
 /** @var \Laminas\View\Renderer\PhpRenderer $this */
-
+/** @var $botUsername string */
 ?>
 <div class="jumbotron home-block">
     <section id="welcome" class="welcome-section">
@@ -8,9 +8,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Telegram Бот</h1>
-                    <p>Бот блокирует ограничивает пользователя вступившего в группу в действиях до тех пор пока не будет выбран ответ на вопрос заданный ботом!</p>
+                    <p>Бот блокирует и ограничивает пользователя вступившего в группу в действиях до тех пор пока не будет выбран ответ на вопрос заданный ботом!</p>
                     <p>Для выполнения функций, бота необходимо добавить в администраторы группу</p>
-                    <p>Бот которого можно добавить в свою группу: @akismetBot</p>
+                    <p>Бот которого можно добавить в свою группу: <strong>@<?php echo $botUsername; ?></strong></p>
                     <p>Код проекта: <a href="https://github.com/northmule/telegram-antisapm-registrations-bot">Здесь</a> </p>
                 </div>
             </div>

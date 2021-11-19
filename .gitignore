@@ -1,2 +1,5 @@
 /.env
 /vendor/
+/data/logs/
+/data/cache/
+/data/doctrine/
