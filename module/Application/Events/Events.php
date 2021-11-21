@@ -6,19 +6,13 @@ namespace Application\Events;
 
 use Doctrine\ORM\EntityManager;
 use Laminas\EventManager\Event;
-use Laminas\EventManager\EventManager;
 use Laminas\Log\Logger;
 use Laminas\ServiceManager\ServiceManager;
-use Longman\TelegramBot\Entities\CallbackQuery;
 use Longman\TelegramBot\Entities\Message;
 use Longman\TelegramBot\Entities\User;
 use Longman\TelegramBot\Entities\User as UserEntities;
-use Longman\TelegramBot\Request;
 use Application\Entity\UsersChat;
 use Northmule\Telegram\Map\Events as EventsMap;
-use Northmule\Telegram\Map\QuestionKeyboard;
-use Northmule\Telegram\Service\KeybordQuestion;
-use Northmule\Telegram\Service\TelegramRestrict;
 
 class Events
 {
