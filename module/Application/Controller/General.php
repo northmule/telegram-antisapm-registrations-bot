@@ -20,7 +20,6 @@ class General extends AbstractActionController
     public function __construct(ModuleOptions $options)
     {
         $this->options = $options;
-        $b = 0;
     }
 
     public function homeAction(): ViewModel
