@@ -2,7 +2,7 @@
     "name": "northmule/telegram-antisapm-registrations-bot",
     "description": "Skeleton of the Laminas application with a module for combating spam registration in the Telegram group",
     "type": "project",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "license": "MIT",
     "config": {
         "discard-changes": true,
